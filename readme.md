@@ -1,18 +1,16 @@
 # CampusConnect
 
-CampusConnect is a planned web-based platform for managing some common student and campus-related activities from one place.
+CampusConnect is a planned web-based platform for managing common student and campus-related activities from one place.
 
-This project is being developed as part of my internship work. The **Week 1 task is mainly focused on project planning and requirements analysis**, so the actual application development has not started yet.
+This project is being developed as part of my internship work. The first two weeks are focused on understanding the problem, preparing requirements, and designing the system before starting the actual application development.
 
 ## Why I chose this project
 
-In colleges, students often receive information from different places such as WhatsApp groups, emails, notice boards, forms and college websites. Similarly, submitting a complaint or service request can sometimes involve a separate process.
+In colleges, students often receive information from different places such as WhatsApp groups, emails, notice boards, forms and college websites. Service requests and complaints can also involve separate processes.
 
-The idea behind CampusConnect is to make these common activities easier by bringing them together in one platform.
+The idea behind CampusConnect is to bring some of these common activities together in one platform.
 
 ## What CampusConnect will do
-
-The planned platform will have different features depending on the user.
 
 ### For Students
 
@@ -22,14 +20,15 @@ The planned platform will have different features depending on the user.
 * Register for events
 * Submit campus service requests
 * Check the status of submitted requests
-* Receive important notifications
+* Receive notifications
 * Give feedback after a request is completed
 
 ### For Staff
 
 * View service requests
-* Check pending requests
+* Check pending and assigned requests
 * Update request status
+* Add comments or updates
 * Manage requests assigned to them
 
 ### For Admin
@@ -37,13 +36,14 @@ The planned platform will have different features depending on the user.
 * Manage users and roles
 * Manage announcements and events
 * View basic statistics
-* Manage other basic platform settings
+* Manage basic platform settings
+* View relevant activity/audit information
 
 ## Project Scope
 
-For the first version, I am keeping the project limited to the main features mentioned above.
+For the first version, the project is limited to the main features mentioned above.
 
-Things like online fee payment, a complete LMS, mobile applications, live chat and AI-based counselling are **not part of the first version**. They can be considered later if the basic system works properly.
+Features such as online fee payment, a complete LMS, mobile applications, live chat and AI-based counselling are not included in the first version. They can be considered later if the basic system works properly.
 
 ## Project Flow
 
@@ -51,13 +51,57 @@ The planned development process is:
 
 **Planning → Requirements → Design → Development → Testing → Deployment → Feedback**
 
-![CampusConnect Project Lifecycle](docs/campusconnect_lifecycle.png)
+The project is planned so that feedback from students and staff can be used to improve later versions.
 
-The idea is not to consider the project finished immediately after deployment. Feedback from students and staff can be used to improve later versions.
+## Week 1 – Project Planning and Requirements
+
+During Week 1, I worked on:
+
+* Understanding the problem
+* Defining the project idea
+* Identifying users and stakeholders
+* Defining project scope
+* Writing functional requirements
+* Writing non-functional requirements
+* Preparing user stories
+* Identifying project risks
+* Creating a project timeline
+* Estimating resources and effort
+* Planning the technology stack
+* Preparing a basic testing plan
+
+The complete Week 1 planning document is available in the `docs` folder.
+
+## Week 2 – Design Documentation and Architecture
+
+Week 2 focused on converting the requirements into a technical design for the proposed system.
+
+I prepared documentation covering:
+
+* High-level system architecture
+* Frontend and backend structure
+* Database design
+* Module interactions
+* Data flow
+* REST API design
+* Technology choices and their rationale
+* Security design
+* Performance and capacity assumptions
+* Error handling
+* Testing approach
+* Technical risks
+* Future scaling approach
+
+### Week 2 Deliverables
+
+* Design documentation
+* System architecture diagram
+* Data flow diagram
+* Service request flow diagram
+
+The Week 2 documentation and diagrams are available in the `docs` and `diagrams` folders.
 
 ## Requirements
-
-During Week 1, I identified both functional and non-functional requirements.
 
 Some important functional requirements are:
 
@@ -71,7 +115,7 @@ Some important functional requirements are:
 * Notifications
 * Admin management
 
-The project will also consider non-functional requirements such as:
+The project also considers non-functional requirements such as:
 
 * Security
 * Performance
@@ -81,27 +125,41 @@ The project will also consider non-functional requirements such as:
 * Data backup
 * Maintainability
 
-The complete requirements are documented in the Week 1 project planning document.
+## Planned Technology Stack
 
-## Technology I am planning to use
+| Part              | Technology                  |
+| ----------------- | --------------------------- |
+| Frontend          | React + TypeScript          |
+| Backend           | Java + Spring Boot          |
+| Database          | PostgreSQL                  |
+| Authentication    | OAuth2 / OpenID Connect     |
+| API               | REST + JSON                 |
+| API Documentation | Swagger / OpenAPI           |
+| Version Control   | Git & GitHub                |
+| Testing           | JUnit + API/Browser Testing |
+| File Storage      | Object Storage              |
 
-| Part              | Planned Technology            |
-| ----------------- | ----------------------------- |
-| Frontend          | React + TypeScript            |
-| Backend           | Java + Spring Boot            |
-| Database          | PostgreSQL                    |
-| Version Control   | Git & GitHub                  |
-| API Documentation | Swagger / OpenAPI             |
-| Testing           | JUnit and browser/API testing |
+These technologies are currently planned for the project. Some choices may change later depending on implementation requirements.
 
-These are the technologies currently planned for the project. They may change later depending on the project requirements.
+## Initial System Assumptions
+
+The current design uses some planning assumptions to make the architecture measurable:
+
+* Around **1,000 registered users**
+* Around **250–300 daily active users**
+* Around **100 peak concurrent users**
+* Normal API target of **95% requests within 2 seconds**
+* Maximum attachment size of around **10 MB**
+* Initial target of up to **100,000 service-request records**
+
+These are design assumptions, not production measurements.
 
 ## Planned Timeline
 
-The initial plan is for around **12 weeks**.
+The initial plan is for around 12 weeks.
 
-* **Week 1:** Planning and requirements
-* **Week 2:** UI design and system design
+* **Week 1:** Project planning and requirements
+* **Week 2:** Design documentation and system architecture
 * **Weeks 3–4:** Project setup, login and basic structure
 * **Weeks 5–6:** Announcements and events
 * **Weeks 7–8:** Service request system
@@ -109,24 +167,7 @@ The initial plan is for around **12 weeks**.
 * **Week 11:** Testing and pilot testing
 * **Week 12:** Deployment and documentation
 
-This is an initial plan, so some changes are expected once actual development starts.
-
-## Week 1 Work
-
-For this week, I worked on:
-
-* Understanding the problem
-* Defining the project idea
-* Identifying users and stakeholders
-* Deciding the project scope
-* Writing functional requirements
-* Writing non-functional requirements
-* Preparing user stories
-* Identifying project risks
-* Creating a project timeline
-* Estimating resources and effort
-* Planning the technology stack
-* Preparing a basic testing plan
+The timeline may change once actual development starts.
 
 ## Repository Structure
 
@@ -136,8 +177,14 @@ CampusConnect/
 ├── README.md
 │
 ├── docs/
-│   ├── Week_1_Project_Planning.docx
+│   ├── Week_1_Project_Planning_CampusConnect.docx
+│   ├── Week_2_Design_Documentation_Architecture_CampusConnect.docx
 │   └── campusconnect_lifecycle.png
+│
+├── diagrams/
+│   ├── system-architecture.png
+│   ├── data-flow.png
+│   └── service-request-flow.png
 │
 ├── requirements/
 │   └── requirements.md
@@ -152,43 +199,22 @@ More folders will be added when actual development starts.
 
 ## Current Status
 
-**Currently completed:** Week 1 – Project Planning and Requirements Analysis
+**Completed:**
 
-The next step is to review the requirements and start working on the basic UI and system design.
+* Week 1 – Project Planning and Requirements Analysis
+* Week 2 – Design Documentation and Architecture Planning
+
+**Next step:**
+
+Start the basic project setup and begin implementing the planned system structure.
 
 ## Project Note
 
-CampusConnect is currently a **hypothetical project created for my internship task**. The project plan, requirements, timeline and technology choices are proposed as part of the planning exercise.
+CampusConnect is currently a hypothetical project created for my internship task.
+
+The project plan, requirements, architecture, timeline and technology choices are proposed as part of the internship exercises. Actual implementation will begin in the upcoming weeks.
 
 ---
 
 **Created by Sunny**
 Engineering Student | Internship Project
-
-
-
-## Week 2 – Design Documentation and Architecture
-
-For Week 2, I prepared the technical design and architecture plan for CampusConnect.
-
-This includes:
-
-- High-level system architecture
-- Frontend and backend structure
-- Database design
-- Module interactions
-- Data flow
-- REST API design
-- Technology stack and decisions
-- Security design
-- Performance assumptions
-- Testing approach
-- Technical risks
-- Future scaling plan
-
-### Week 2 Deliverables
-
-- Design documentation
-- System architecture diagram
-- Data flow diagram
-- Service request flow diagram
