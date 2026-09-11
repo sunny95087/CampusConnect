@@ -164,3 +164,31 @@ CampusConnect is currently a **hypothetical project created for my internship ta
 
 **Created by Sunny**
 Engineering Student | Internship Project
+
+
+
+## Week 2 – Design Documentation and Architecture
+
+For Week 2, I prepared the technical design and architecture plan for CampusConnect.
+
+This includes:
+
+- High-level system architecture
+- Frontend and backend structure
+- Database design
+- Module interactions
+- Data flow
+- REST API design
+- Technology stack and decisions
+- Security design
+- Performance assumptions
+- Testing approach
+- Technical risks
+- Future scaling plan
+
+### Week 2 Deliverables
+
+- Design documentation
+- System architecture diagram
+- Data flow diagram
+- Service request flow diagram
