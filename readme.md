@@ -2,7 +2,7 @@
 
 CampusConnect is a planned web-based platform for managing common student and campus-related activities from one place.
 
-This project is being developed as part of my internship work. The first two weeks are focused on understanding the problem, preparing requirements, and designing the system before starting the actual application development.
+This project is being developed as part of my internship work. The first few weeks are focused on understanding the problem, preparing requirements, designing the system, and creating technical prototypes before starting the actual application development.
 
 ## Why I chose this project
 
@@ -49,7 +49,7 @@ Features such as online fee payment, a complete LMS, mobile applications, live c
 
 The planned development process is:
 
-**Planning → Requirements → Design → Development → Testing → Deployment → Feedback**
+**Planning → Requirements → Design → Prototype → Development → Testing → Deployment → Feedback**
 
 The project is planned so that feedback from students and staff can be used to improve later versions.
 
@@ -100,6 +100,40 @@ I prepared documentation covering:
 * Service request flow diagram
 
 The Week 2 documentation and diagrams are available in the `docs` and `diagrams` folders.
+
+## Week 3 – Feature Development and Code Prototype Documentation
+
+Week 3 focused on creating a technical prototype plan for one of the key features identified during the earlier planning and design stages.
+
+The selected feature was **Student Service Request Submission & Tracking**.
+
+The Week 3 work covers:
+
+* Feature objective and scope
+* Code architecture
+* Data structures
+* Service request status workflow
+* Request creation algorithm
+* Input validation
+* Duplicate request detection
+* Error handling
+* Notification workflow
+* Security considerations
+* Efficiency and performance improvements
+* Pseudocode
+* API contract
+* Testing plan
+* Prototype development effort estimation
+
+### Week 3 Deliverables
+
+* Feature prototype documentation
+* Service request prototype flow diagram
+* Pseudocode and algorithm design
+* API prototype contract
+* Testing plan
+
+The Week 3 documentation is available in the `docs` folder and the prototype flow diagram is available in the `diagrams` folder.
 
 ## Requirements
 
@@ -160,10 +194,11 @@ The initial plan is for around 12 weeks.
 
 * **Week 1:** Project planning and requirements
 * **Week 2:** Design documentation and system architecture
-* **Weeks 3–4:** Project setup, login and basic structure
-* **Weeks 5–6:** Announcements and events
-* **Weeks 7–8:** Service request system
-* **Weeks 9–10:** Admin features and notifications
+* **Week 3:** Feature prototype and technical documentation
+* **Weeks 4–5:** Project setup, login and basic structure
+* **Weeks 6–7:** Announcements and events
+* **Weeks 8–9:** Service request system
+* **Week 10:** Admin features and notifications
 * **Week 11:** Testing and pilot testing
 * **Week 12:** Deployment and documentation
 
@@ -179,12 +214,14 @@ CampusConnect/
 ├── docs/
 │   ├── Week_1_Project_Planning_CampusConnect.docx
 │   ├── Week_2_Design_Documentation_Architecture_CampusConnect.docx
+│   ├── Week_3_Feature_Prototype_Documentation.docx
 │   └── campusconnect_lifecycle.png
 │
 ├── diagrams/
 │   ├── system-architecture.png
 │   ├── data-flow.png
-│   └── service-request-flow.png
+│   ├── service-request-flow.png
+│   └── service-request-prototype-flow.png
 │
 ├── requirements/
 │   └── requirements.md
@@ -203,6 +240,7 @@ More folders will be added when actual development starts.
 
 * Week 1 – Project Planning and Requirements Analysis
 * Week 2 – Design Documentation and Architecture Planning
+* Week 3 – Feature Development and Code Prototype Documentation
 
 **Next step:**
 
@@ -212,9 +250,10 @@ Start the basic project setup and begin implementing the planned system structur
 
 CampusConnect is currently a hypothetical project created for my internship task.
 
-The project plan, requirements, architecture, timeline and technology choices are proposed as part of the internship exercises. Actual implementation will begin in the upcoming weeks.
+The project plan, requirements, architecture, timeline, technology choices and feature prototypes are proposed as part of the internship exercises. Actual application implementation will begin in the upcoming weeks.
 
 ---
 
 **Created by Sunny**
+
 Engineering Student | Internship Project
