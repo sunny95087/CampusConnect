@@ -2,7 +2,7 @@
 
 CampusConnect is a planned web-based platform for managing common student and campus-related activities from one place.
 
-This project is being developed as part of my internship work. The first few weeks are focused on understanding the problem, preparing requirements, designing the system, and creating technical prototypes before starting the actual application development.
+This project is being developed as part of my internship work. The first few weeks are focused on understanding the problem, preparing requirements, designing the system, creating technical prototypes, and preparing a testing and quality assurance plan before starting the actual application development.
 
 ## Why I chose this project
 
@@ -49,7 +49,7 @@ Features such as online fee payment, a complete LMS, mobile applications, live c
 
 The planned development process is:
 
-**Planning → Requirements → Design → Prototype → Development → Testing → Deployment → Feedback**
+**Planning → Requirements → Design → Prototype → Testing → Development → Deployment → Feedback**
 
 The project is planned so that feedback from students and staff can be used to improve later versions.
 
@@ -135,6 +135,43 @@ The Week 3 work covers:
 
 The Week 3 documentation is available in the `docs` folder and the prototype flow diagram is available in the `diagrams` folder.
 
+## Week 4 – Software Testing and Quality Assurance
+
+Week 4 focused on preparing a comprehensive Software Testing and Quality Assurance (QA) plan for CampusConnect.
+
+The QA plan was prepared using the requirements, architecture and feature prototype developed during the previous weeks.
+
+The Week 4 work covers:
+
+* Unit testing
+* Integration testing
+* API testing
+* System testing
+* Regression testing
+* Performance testing
+* Security testing
+* Usability and accessibility testing
+* Test environment and test data
+* Defect management
+* QA metrics and success benchmarks
+* Requirements-to-test traceability
+* Release readiness criteria
+* Continuous testing and CI/CD quality checks
+
+Special attention was given to the **Student Service Request Submission & Tracking** feature because it involves authentication, validation, database operations, authorization, status transitions, notifications and error handling.
+
+### Week 4 Deliverables
+
+* Software Testing and QA Plan
+* Detailed sample test cases
+* Performance testing benchmarks
+* Security testing checklist
+* Requirements-to-test traceability
+* Defect management process
+* Release readiness checklist
+
+The complete Week 4 QA and testing documentation is available in the `docs` folder.
+
 ## Requirements
 
 Some important functional requirements are:
@@ -195,7 +232,8 @@ The initial plan is for around 12 weeks.
 * **Week 1:** Project planning and requirements
 * **Week 2:** Design documentation and system architecture
 * **Week 3:** Feature prototype and technical documentation
-* **Weeks 4–5:** Project setup, login and basic structure
+* **Week 4:** Software testing and quality assurance plan
+* **Week 5:** Project setup, login and basic structure
 * **Weeks 6–7:** Announcements and events
 * **Weeks 8–9:** Service request system
 * **Week 10:** Admin features and notifications
@@ -215,6 +253,7 @@ CampusConnect/
 │   ├── Week_1_Project_Planning_CampusConnect.docx
 │   ├── Week_2_Design_Documentation_Architecture_CampusConnect.docx
 │   ├── Week_3_Feature_Prototype_Documentation.docx
+│   ├── Week_4_Software_Testing_QA_Plan_CampusConnect.docx
 │   └── campusconnect_lifecycle.png
 │
 ├── diagrams/
@@ -241,6 +280,7 @@ More folders will be added when actual development starts.
 * Week 1 – Project Planning and Requirements Analysis
 * Week 2 – Design Documentation and Architecture Planning
 * Week 3 – Feature Development and Code Prototype Documentation
+* Week 4 – Software Testing and Quality Assurance Plan
 
 **Next step:**
 
@@ -250,7 +290,7 @@ Start the basic project setup and begin implementing the planned system structur
 
 CampusConnect is currently a hypothetical project created for my internship task.
 
-The project plan, requirements, architecture, timeline, technology choices and feature prototypes are proposed as part of the internship exercises. Actual application implementation will begin in the upcoming weeks.
+The project plan, requirements, architecture, timeline, technology choices, feature prototypes and testing plan are proposed as part of the internship exercises. Actual application implementation will begin in the upcoming weeks.
 
 ---
 
